@@ -1,13 +1,12 @@
-
-*** Running vivado
-    with args -log ex1_mux.vds -m64 -mode batch -messageDb vivado.pb -source ex1_mux.tcl
-
-
-****** Vivado v2014.1 (64-bit)
-  **** SW Build 881834 on Fri Apr  4 14:15:54 MDT 2014
-  **** IP Build 877625 on Fri Mar 28 16:29:15 MDT 2014
-    ** Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
-
+#-----------------------------------------------------------
+# Vivado v2014.1 (64-bit)
+# SW Build 881834 on Fri Apr  4 14:15:54 MDT 2014
+# IP Build 877625 on Fri Mar 28 16:29:15 MDT 2014
+# Start of session at: Mon Nov 09 21:45:19 2015
+# Process ID: 6564
+# Log file: T:/15.83111-6/Logica-Programavel/exercicios/FPGA/FPGA.runs/synth_1/ex1_mux.vds
+# Journal file: T:/15.83111-6/Logica-Programavel/exercicios/FPGA/FPGA.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
 source ex1_mux.tcl
 # set_param gui.test TreeTableDev
 # set_msg_config -id {HDL 9-1061} -limit 100000

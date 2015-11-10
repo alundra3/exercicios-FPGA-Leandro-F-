@@ -8,7 +8,7 @@ entity exe4 is
     in1       : in std_logic_vector(7 downto 0);
     in2       : in std_logic_vector(7 downto 0);
     
-    saida       : out std_logic_vector(7 downto 0)
+    saida       : out std_logic_vector(15 downto 0)
     
     
      );

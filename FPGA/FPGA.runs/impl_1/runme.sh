@@ -40,4 +40,8 @@ EAStep()
      fi
 }
 
-EAStep vivado -log ex1_mux.vds -m64 -mode batch -messageDb vivado.pb -source ex1_mux.tcl
+# pre-commands:
+/bin/touch .init_design.begin.rst
+EAStep vivado -log ex1_mux.vdi -applog -m64 -messageDb vivado.pb -mode batch -source ex1_mux.tcl -notrace
+
+
