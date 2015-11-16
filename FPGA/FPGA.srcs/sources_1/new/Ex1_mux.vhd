@@ -2,9 +2,9 @@
 -- Company: 
 -- Engineer: 
 -- 
--- Create Date: 09.11.2015 21:09:30
+-- Create Date: 16.11.2015 18:22:17
 -- Design Name: 
--- Module Name: 1-mux - Behavioral
+-- Module Name: Ex1_mux - Behavioral
 -- Project Name: 
 -- Target Devices: 
 -- Tool Versions: 
@@ -17,6 +17,20 @@
 -- Additional Comments:
 -- 
 ----------------------------------------------------------------------------------
+
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx leaf cells in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
 
 
 library IEEE;
@@ -72,5 +86,6 @@ END PROCESS;
     ss_mux <= sw(4 downto 3);
     in_mux <= sw(2 downto 0);
     led(0) <= out_mux;
-  
+    
 end bhv2;
+
