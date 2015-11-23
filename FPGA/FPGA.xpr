@@ -103,16 +103,15 @@
     </FileSet>
     <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
       <Filter Type="Constrs"/>
-      <File Path="$PSRCDIR/constrs_1/new/constraint.xdc">
+      <File Path="$PSRCDIR/constrs_1/imports/Problemas/io_basico.xdc">
         <FileInfo>
-          <Attr Name="ImportPath" Val="C:/Users/15.83111-6/aula2_fpga/aula2_fpga.srcs/constrs_1/new/constraint.xdc"/>
-          <Attr Name="ImportTime" Val="1445900951"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Aulas/Problemas/io_basico.xdc"/>
+          <Attr Name="ImportTime" Val="1447103968"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
         </FileInfo>
       </File>
       <Config>
-        <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/constraint.xdc"/>
         <Option Name="ConstrsType" Val="XDC"/>
       </Config>
     </FileSet>
